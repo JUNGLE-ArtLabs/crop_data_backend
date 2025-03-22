@@ -3,7 +3,7 @@ const axios = require("axios");
 
 const web3 = new Web3("https://rpc-amoy.polygon.technology");
 
-const contractAddress = "0x0E092E728402E1389EeD57a9AC752118892702A6" // REMIXのデプロイしたスマートコントラクトのアドレス
+const contractAddress = "0x4112682D7d3e9302A7CD58a04eB709B49b2D9944" // REMIXのデプロイしたスマートコントラクトのアドレス
 
 const contractABI = [
 		{
@@ -177,4 +177,4 @@ async function fetchCropData(cropId) {
     }
 }
 
-fetchCropData(1); // この数字はREMIXのスマートコントラクトで登録した作物の順番 0からはじまる
+fetchCropData(0); // この数字はREMIXのスマートコントラクトで登録した作物の順番 0からはじまる
