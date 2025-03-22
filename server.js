@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 
 // PinataにアップロードしたCIDを使用してJSONデータを取得する
-const ipfsHash = "bafkreics3bcoxrz3zuyrp6pjumnxsxhswbgv5kuhhs7mgfe5n6n2wpzzfe"; // 例: CID
+const ipfsHash = "bafkreics3bcoxrz3zuyrp6pjumnxsxhswbgv5kuhhs7mgfe5n6n2wpzzfe"; // PinataのCID
 const ipfsUrl = `https://gateway.pinata.cloud/ipfs/${ipfsHash}`; // PinataゲートウェイURL
 
 app.get("/crops", async (req, res) => {
