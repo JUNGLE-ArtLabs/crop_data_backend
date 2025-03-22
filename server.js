@@ -11,9 +11,9 @@ app.get("/", (req, res) => {
 
 const crops = [
   {
-    name: "rice",
-    producer: "fujimatsu_shizen_nouen",
-    ipfsHash: "bafkreidj6rpk32nlz7vbvi4ldwv573gmkcaefjujkpwc7jq2t64xcsftqq", // Pinataの対象の作物のjsonデータのCID
+    name: "hakusai",
+    producer: "unju_shizen_nouen",
+    ipfsHash: "bafkreics3bcoxrz3zuyrp6pjumnxsxhswbgv5kuhhs7mgfe5n6n2wpzzfe", // Pinataの対象の作物のjsonデータのCID
   },
 ];
 
