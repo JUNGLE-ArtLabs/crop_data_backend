@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("オーガニック認証システム API");
+    res.send("作物データ API");
 });
 
 
