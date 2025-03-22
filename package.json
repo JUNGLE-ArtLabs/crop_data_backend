@@ -1,5 +1,5 @@
 {
-  "name": "organic_certification_backend",
+  "name": "crop_data_backend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JUNGLE-ArtLabs/organic_certification_backend.git"
+    "url": "git+https://github.com/JUNGLE-ArtLabs/crop_data_backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/JUNGLE-ArtLabs/organic_certification_backend/issues"
+    "url": "https://github.com/JUNGLE-ArtLabs/crop_data_backend/issues"
   },
-  "homepage": "https://github.com/JUNGLE-ArtLabs/organic_certification_backend#readme"
+  "homepage": "https://github.com/JUNGLE-ArtLabs/crop_data_backend#readme"
 }
