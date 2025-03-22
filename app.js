@@ -3,7 +3,7 @@ const axios = require("axios");
 
 const web3 = new Web3("https://rpc-amoy.polygon.technology");
 
-const contractAddress = "0x69635B5Fe0AfC66063959d4C6AC324b7Fb5Bc02c" // REMIXのデプロイしたスマートコントラクトのアドレス
+const contractAddress = "0xecAdfbe8a7e32d9f0793433823b0f753067F91D6" // REMIXのデプロイしたスマートコントラクトのアドレス
 
 const contractABI = [
 		{
