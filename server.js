@@ -17,7 +17,10 @@ app.get("/crops", async (req, res) => {
   try {
     const response = await axios.get(ipfsUrl); // Pinataからデータを取得
     const cropData = response.data; // JSONデータ
-    res.json(cropData); // JSONデータをそのまま返す
+
+    const cropArray = Array.isArray(cropData) ? cropData : [cropData];
+
+    res.json(cropArray);
   } catch (error) {
     console.error("データ取得エラー:", error);
     res.status(500).json({ message: "作物データの取得に失敗しました" });
