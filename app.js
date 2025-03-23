@@ -177,4 +177,4 @@ async function fetchCropData(cropId) {
     }
 }
 
-fetchCropData(0); // この数字はREMIXのスマートコントラクトで登録した作物の順番 0からはじまる
+fetchCropData(1); // この数字はREMIXのスマートコントラクトで登録した作物の順番 0からはじまる
